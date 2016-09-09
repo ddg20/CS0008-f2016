@@ -9,7 +9,7 @@
 #Notes:
 
 acre = 4046.8564224
-totalLand = input("Enter the total square meters of land: ")
+totalLand = int(input("Enter the total square meters of land: "))
 totalAcres = 0
 totalAcres = totalLand/acre
-print('The total number of acres is:', totalAcres, 'm^2')
+print("The total number of acres is:", totalAcres, "m^2")
