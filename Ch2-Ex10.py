@@ -18,4 +18,6 @@ totalSugar = cookies * sugar
 totalButter = cookies * butter
 totalFlour = cookies * flour
 
-print('You need\n', totalSugar, 'grams of sugar\n', totalButter, 'grams of butter\n', totalFlour, 'grams of flour')
+print('You need:', totalSugar, 'grams of sugar')
+print(totalButter, 'grams of butter')
+print(  totalFlour, 'grams of flour')
