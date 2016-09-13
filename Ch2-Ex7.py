@@ -16,6 +16,6 @@ liters = (gallonsGas * 3.78541)
 litersPer100Km = (100 * liters / kilometers)
 
 print("")
-print("You have driven",kilometers,"km")
-print("You have used",liters,"liters")
-print("L per 100Km is",litersPer100Km)
+print("You have driven %s km") % kilometers
+print("You have used %s liters of gas") %liters
+print("L per 100Km is: %s") %litersPer100Km
