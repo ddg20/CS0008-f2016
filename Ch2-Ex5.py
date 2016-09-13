@@ -11,16 +11,16 @@
 speed = 90
 time = 6
 distance = (speed * time)
-print("The car traveled", distance, "km")
+print("\nThe car traveled %s km\n") %distance
 
 time = 10
 distance = (speed * time)
-print("The car traveled", distance, "km")
+print("The car traveled %s km\n") %distance
 
 time = 15
 distance = (speed * time)
-print("The car traveled", distance, "km")
+print("The car traveled %s km\n") %distance
 
 time = 2.41666
 distance = (speed * time)
-print("The car traveled", distance, "km")
+print("The car traveled %s km\n") %distance
