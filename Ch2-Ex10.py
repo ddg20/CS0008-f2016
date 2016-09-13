@@ -20,4 +20,4 @@ totalFlour = cookies * flour
 
 print 'You need: %s grams of sugar' % totalSugar
 print str(totalButter) + ' grams of butter'
-print(  totalFlour, 'grams of flour')
+print('%s grams of flour') %totalFlour
