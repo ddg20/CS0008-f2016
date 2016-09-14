@@ -6,7 +6,7 @@
 #
 #description:   Introduction to programming with Python, Chapter 3, Exercise 1
 #
-#Notes: newline is not working
+#Notes:
 
 day = int(input("Enter a number in the range of 1 through 7:"))
 
