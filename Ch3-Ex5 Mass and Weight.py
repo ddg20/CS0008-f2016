@@ -4,7 +4,7 @@
 #class:         CS0008-f2016
 #instructor:    Max Novelli
 #
-#description:   Introduction to programming with Python, Chapter 3, Exercise 4
+#description:   Introduction to programming with Python, Chapter 3, Exercise 5
 #
 #Notes:
 
