@@ -2,5 +2,5 @@ First I prompt the user to enter either "USC" or "M" for US Customary Units or t
 and if neither of the strings are entered, then an error message is given.
 If the user chooses USC, then they have to enter distance and gas in miles and gallons, and then
 I convert them into kilometers and liters, and vice versa if the user chooses the Metric system.
-Then I calculate the mpg and lper100km for both and also detemine the gas consumption rating by looking at the value
+Then I calculate the mpg and Lper100km for both and also detemine the gas consumption rating by looking at the value
 of lper100km. After that, the program outputs all the date (both in metric and us customary units) in the format of a table.
