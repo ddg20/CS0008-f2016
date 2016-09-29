@@ -9,4 +9,3 @@ Consumption:                 2.091 mpg            112.500 L/100Km
 
 Gas Consumption Rating: Extremely Poor
 
-Process finished with exit code 0
