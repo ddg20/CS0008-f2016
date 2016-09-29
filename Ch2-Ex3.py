@@ -12,4 +12,5 @@ acre = 4046.8564224
 totalLand = int(input("Enter the total square meters of land: "))
 totalAcres = 0
 totalAcres = totalLand/acre
-print("The total number of acres is: %s m^2") %totalAcres
+print("The total number of acres is: " + format(totalAcres, '.2f'))
+

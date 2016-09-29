@@ -19,3 +19,5 @@ print("")
 print("You have driven %s km") % kilometers
 print("You have used %s liters of gas") %liters
 print("L per 100Km is: %s") %litersPer100Km
+
+print("\nYou have driven " + str(kilometers) + " kilometers")

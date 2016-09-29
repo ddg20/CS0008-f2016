@@ -1,0 +1,12 @@
+Enter either "USC" (US Customary Units) or "M" (Metric System): M
+Enter the number of kilometers driven: 80
+Enter the number of liters used: 90
+
+                                          USC                    M
+Distance:                    49.710 miles           80.000 Km
+Gas:                         23.775 gallons         90.000 Liters
+Consumption:                 2.091 mpg            112.500 L/100Km
+
+Gas Consumption Rating: Extremely Poor
+
+Process finished with exit code 0

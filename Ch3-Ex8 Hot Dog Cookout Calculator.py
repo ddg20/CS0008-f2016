@@ -9,13 +9,13 @@
 #Notes:
 
 people = int(input("How many people will be attending the cookout?"))
-hotDogsPerPerson = int(input("How many hot dogs will each person eat?")
+hotDogsPerPerson = int(input("How many hot dogs will each person eat?"))
 minimumHotDogs = people * hotDogsPerPerson
 
 totalHotDogPackages = minimumHotDogs * 10 / 100
 totalHotDogBuns = minimumHotDogs * 8 / 10
-hotDogsLeftOver = totalHotDogPackages - minimumHotDogs
-hotDogBunsLeftOver = totalHotDogBuns - minimumHotDogs
+hotDogsLeftOver = (totalHotDogPackages * 10) - minimumHotDogs
+hotDogBunsLeftOver = (totalHotDogBuns * 8) - minimumHotDogs
 
 print("\nThe minimum number of packages of hot dogs required is: %s") %totalHotDogPackages
 print("The minimum number of packages of hot dog buns required is: %s") %totalHotDogBuns

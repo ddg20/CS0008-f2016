@@ -14,7 +14,7 @@ year = int(input("Enter a 2-digit year: "))
 
 magicNumber = month * date
 
-if magicNumber == year:
+if (magicNumber == year):
     print("\nThe date is magic.")
 else:
     print("\nThe date is not magic.")

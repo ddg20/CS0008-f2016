@@ -3,16 +3,14 @@
 #date:          09/08/2016
 #class:         CS0008-f2016
 #instructor:    Max Novelli
-#
 #description:   Introduction to programming with Python, Chapter 3, Exercise 7
-#
 #Notes:
 
 firstPrimary = input("Enter the name (all lowercase) of a primary color: ")
 secondPrimary = input("Enter the name (all lowercase) of a second primary color: ")
 
-if firstPrimary == 'blue':
-    if secondPrimary == 'red':
+if "blue" == firstPrimary:
+    if "red" == secondPrimary:
         print("\nWhen you mix the 2 colors, you get the secondary color: purple")
 
 if firstPrimary == "red":
