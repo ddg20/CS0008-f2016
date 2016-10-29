@@ -1,0 +1,9 @@
+First initialize variables for partial and total distance and number of lines. Then ask for file name to input
+and as long as the file name is not "quit" or "q" (input validation), then the program will continue to open the file to
+read and call the processFile function, which will read each line and take away the new line using the rstrip method.
+Then it will split the name and the distance through the split function with the comma and then assign the distance variable to
+the second element in the list (the float). Then the function ends with the partial distance and partial number of lines
+in that file being summed up. After the processFile function is carried out, the printKV function is then called which
+will take into account each case (string, float, and int) and then format the appropriate number of spaces/decimal places.
+Then the file will close and the total distance and total number of lines will be added together. Then it will ask
+for the next file to be inputted until the user enters "quit" or "q".
