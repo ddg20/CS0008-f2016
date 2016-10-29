@@ -1,9 +1,0 @@
-Input file name: f2016_cs8_ddg20_a2.data.2.csv
-Traceback (most recent call last):
-  File "/Users/dhruvgohel/Documents/CS0008/CS0008-f2016/f2016_cs8_ddg20_a2.py", line 42, in <module>
-    main()
-  File "/Users/dhruvgohel/Documents/CS0008/CS0008-f2016/f2016_cs8_ddg20_a2.py", line 9, in main
-    while(file and file != "QUIT" and file != "Q" and file != "quit" and file != "q"):
-UnboundLocalError: local variable 'file' referenced before assignment
-
-Process finished with exit code 1
