@@ -1,0 +1,12 @@
+First all of the "total" variables and index variable are initialized. Then a "data" list is also initialized.
+The program then prompts the user to input the name of the file and a while loop is created to test whether or not
+the file should be read or not. Then the file is opened in read mode and a for loop is created to read through each line.
+Each line is then stripped of each new line character and the name and distance are split using the respective methods.
+Then the a while loop us created to determine whether or not the line contains actual data or not. Then each line has
+the total distance calculated and converts the distance from a string to a float to be able to calculate it. This is
+done by using the index of the list and increases the index variable through the while loop. The total number of lines
+are also calculated. Then the first line is deleted because no actual data exists there but the "name" and "distance"
+header. Then the file's closed and the user is prompted to enter the name of another file or to quit the program.
+The program sums up all of the files then. The max and min distances are also found using their methods as well as the
+participants who actually ran them. The total number of participants are found by taking the total number of lines and
+subtracting the number of files to get the actual number. Then all of the data is formatted and printed out.

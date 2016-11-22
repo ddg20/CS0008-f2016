@@ -1,0 +1,18 @@
+totalFiles = 0
+totalLines = 0
+totalDistance = 0
+data = []
+dictionary = {}
+file = input("Enter the name of the file to be read: ")
+while(file != 'q' and file != 'Q' and file != "quit" and file != "Quit" and file != "QUIT"):
+    fh = open(file, 'r')
+    for line in fh:
+        data.append(line.strip('\n').split(','))
+        totalLines += 1
+    del data[0]
+    fh.close()
+
+    file = input("Enter the name of another file to be read or type 'q' or 'quit' to stop: ")
+    totalFiles += 1
+
+print(data)
