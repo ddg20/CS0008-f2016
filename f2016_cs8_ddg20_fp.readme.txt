@@ -1,0 +1,12 @@
+First I created a Participant class and initialized the name, distance, and runs variables. Then I defined the __init__
+method that accepts the name and distance as arguments. Then I defined the addDistance method and the add distances
+methods which adds a single distance to the distance accumulator, and adds an array of distances to the distance
+accumulator, respectively. Then I defined the getName, getDistance, and getRuns methods which returns the name,
+distance, and number of runs. I then defined the __str__ method which stringifies the object. Now the class is done.
+
+Now I've defined the getDataFromFile method which opens the file and and reads through each line. The method also strips
+the newline character and splits the name and the distance, and appends that list to a dictionary. Then I initialized
+the number of files, total lines, and total distance run variables. The min distance and max distances are also defined
+using the min and max functions. Then everything is formatted as shown in the assignment plan and set so that the strings
+will be 20 characters long, total distance run with 9 digits, decimal point and 4 decimals, and the number of runs with
+4 digits and no decimals. Then another file is created and written with every object, and then the file is closed.

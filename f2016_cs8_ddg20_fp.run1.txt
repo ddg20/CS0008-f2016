@@ -1,0 +1,19 @@
+Please provide master file : masterfile.txt
+
+Number of Input files read   :     3
+Total number of lines read   :   450
+
+Total distance run           :  23222.95595
+
+Max distance run             :    205.82148
+  by participant             : Glynis
+
+Min distance run             :      0.05789
+  by participant             : Alex
+
+Total number of participants :   388
+Number of participants
+ with multiple records       :     60.00000
+
+
+Process finished with exit code 0
