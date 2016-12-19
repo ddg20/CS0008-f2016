@@ -1,3 +1,7 @@
+#
+# HEADER????
+#
+
 
 class Participant:
 
@@ -191,6 +195,7 @@ print(" with multiple records       : " + format(totalNumberOfParticipantWithMul
 print("")
 
 # create output file
+# MN: re-using code from somebody else is fine, but you should always personalize it!!!
 outputFile = "f2016_cs8_man8_a3.output.csv"
 # open file for writing
 fh = open(outputFile, 'w')
